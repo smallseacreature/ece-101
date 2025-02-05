@@ -36,6 +36,8 @@ int main() {
    midtermAvg = (midtermScore / MIDTERM_MAX) * 100.0;
    finalAvg = (finalScore / FINAL_MAX) * 100.0;
    
+    
+    //set scores to 100 if they are over 100
    if (homeworkAvg > 100.0) {
       homeworkAvg = 100.0;
    }
